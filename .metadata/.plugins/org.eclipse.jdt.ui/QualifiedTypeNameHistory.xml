@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.hnt.entity.User"/>
+    <fullyQualifiedTypeName name="com.hnt.service.UserService"/>
+    <fullyQualifiedTypeName name="org.mockito.BDDMockito.Then"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.extension.ExtendWith"/>
+    <fullyQualifiedTypeName name="org.mockito.junit.jupiter.MockitoExtension"/>
+    <fullyQualifiedTypeName name="org.mockito.InjectMocks"/>
+    <fullyQualifiedTypeName name="com.hnt.UserRepository"/>
+    <fullyQualifiedTypeName name="org.mockito.junit.jupiter.MockitoSettings"/>
+    <fullyQualifiedTypeName name="org.mockito.Mock"/>
+</qualifiedTypeNameHistroy>
