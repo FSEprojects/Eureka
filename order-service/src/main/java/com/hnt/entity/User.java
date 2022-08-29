@@ -28,5 +28,11 @@ public class User {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
 
 }

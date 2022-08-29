@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\kafka-demo-main\kafka-consumer"/>
+			<item value="D:\kafka-demo-main\spring-boot-kafka-app"/>
 			<item value="D:\angular-springboot-jwt-main\angular-springboot-jwt-main"/>
 		</list>
 		<list key="projectNameTemplate">

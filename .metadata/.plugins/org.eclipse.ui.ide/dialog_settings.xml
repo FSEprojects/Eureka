@@ -3,6 +3,7 @@
 	<list key="installedFeatures">
 		<item value="com.ianbrandt.tools.m2e.mdp.feature:0.0.4.201409291703"/>
 		<item value="org.eclipse.buildship:3.1.2.v20190903-1802"/>
+		<item value="org.eclipse.eclemma.feature:3.1.6.202206011447"/>
 		<item value="org.eclipse.egit.gitflow.feature:5.5.0.201909110433-r"/>
 		<item value="org.eclipse.egit:5.5.0.201909110433-r"/>
 		<item value="org.eclipse.emf.common:2.16.0.v20190625-1131"/>
