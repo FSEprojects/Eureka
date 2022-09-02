@@ -26,4 +26,11 @@ public class UserService {
 		return repository.findAll();
 	}
 
+	public void delete(int userid) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
 }

@@ -1,6 +1,5 @@
 package com.hnt;
 
-import java.net.URI;
 import java.util.HashMap;
 
 import org.springframework.http.ResponseEntity;

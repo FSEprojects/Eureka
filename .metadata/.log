@@ -6709,3 +6709,170 @@ Caused by: java.net.SocketException: Connection reset
 	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
 	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:110)
 	... 18 more
+
+!ENTRY org.eclipse.core.resources 4 567 2022-08-30 16:36:20.049
+!MESSAGE The project description file (.project) for 'spring-boot-kafka-app' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'spring-boot-kafka-app' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:763)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1056)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1102)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 567 2022-08-30 16:41:30.934
+!MESSAGE The project description file (.project) for 'spring-boot-kafka-app' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'spring-boot-kafka-app' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:763)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1056)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1102)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.eclemma.core 4 5013 2022-08-30 16:55:51.771
+!MESSAGE Error while dumping coverage data (code 5013).
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:200)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:83)
+	at org.jacoco.core.data.ExecutionDataReader.read(ExecutionDataReader.java:84)
+	at org.eclipse.eclemma.internal.core.MemoryExecutionDataSource.readFrom(MemoryExecutionDataSource.java:69)
+	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:21:53.464
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:21:53.476
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4290332d[org.springframework.tooling.boot.ls:1.13.0.201911200938(id=632)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:21:53.476
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-09-02 15:21:57.181
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.021
+!MESSAGE Boot LS startup time from start to initialized: 7527ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.090
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BMMOAvjXisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.093
+!MESSAGE subscribing to classpath changes: sts4.classpath.BMMOAvjX isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.094
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.095
+!MESSAGE subsribers = {sts4.classpath.BMMOAvjX=Send Classpath Notifications(985), sts4.classpath.atHLvnKR=Send Classpath Notifications(78)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.096
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.097
+!MESSAGE project order-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.098
+!MESSAGE project eureka-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.099
+!MESSAGE Preparing classpath changed notification order-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.100
+!MESSAGE project kafka-example ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.101
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.101
+!MESSAGE project kafka-example SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.102
+!MESSAGE project spring-boot-security-jwt ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.103
+!MESSAGE project spring-boot-kafka-app ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.104
+!MESSAGE project spring-boot-kafka-app SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.105
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.106
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BMMOAvjX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.159
+!MESSAGE classpath=138 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.171
+!MESSAGE buffering callback sts4.classpath.BMMOAvjX order-service false 138
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.172
+!MESSAGE Preparing classpath changed notification eureka-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.173
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.184
+!MESSAGE classpath=129 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.208
+!MESSAGE buffering callback sts4.classpath.BMMOAvjX eureka-service false 129
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.208
+!MESSAGE Preparing classpath changed notification spring-boot-security-jwt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.209
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.209
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.210
+!MESSAGE buffering callback sts4.classpath.BMMOAvjX spring-boot-security-jwt false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.210
+!MESSAGE executing callback sts4.classpath.BMMOAvjX 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-02 15:22:01.306
+!MESSAGE executing callback sts4.classpath.BMMOAvjX SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-09-02 15:24:13.532
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
